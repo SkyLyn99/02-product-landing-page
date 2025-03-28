@@ -11,12 +11,13 @@ body {
 /* Hero Section */
 .hero {
   text-align: center;
-  background-color: #eaf6ff; /* soft light blue background */
+  background: linear-gradient(to bottom, #eaf6ff, #c7e1fc); /* Soft gradient background */
   padding: 40px; /* Added padding */
+  font-size: medium; /* Default font size */
 }
 
 .hero img {
-  width: 200px; /* Reduced size */
+  width: 290px; /* Adjusted size to make it slightly smaller */
   border-radius: 50%;
   border: solid 4px #16213e;
   margin-bottom: 20px;
@@ -25,7 +26,7 @@ body {
 .hero h1 {
   margin: 20px 0 10px;
   color: #16213e;
-  font-size: 2.5rem; /* Increased font size */
+  font-size: 4em; /* Made much larger */
 }
 
 .hero p {
@@ -40,8 +41,8 @@ body {
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  font-size: 1.2rem; /* Larger button text */
-  padding: 15px 30px; /* Increased button size */
+  font-size: 1.5em; /* Made much larger */
+  padding: 15px 30px;
 }
 
 .hero button:hover {
@@ -50,18 +51,18 @@ body {
 
 /* Product Description Section */
 .description {
-  padding: 40px 20px;
+  padding: 60px 40px;
   text-align: center;
   background-color: #ffffff;
   margin: 40px auto;
-  max-width: 800px;
+  max-width: 900px;
   font-size: 1.2rem; /* Slightly larger font size */
 }
 
 /* How It Works Section */
 .how-it-works {
   padding: 40px 20px;
-  background-color: #f7f7f7;
+  background: linear-gradient(to bottom, #f7f7f7, #c3dfd9); /* Added gradient background */
   text-align: center;
 }
 
@@ -77,8 +78,9 @@ body {
   padding-left: 20px;
   max-width: 600px;
   margin: 0 auto;
-  color: #333;
+  color: #3b3b3b;
   text-align: left;
+  font-size: 1.2rem; /* Slightly larger font size */
 }
 
 .how-it-works li {
@@ -107,10 +109,13 @@ strong {
 
 .features ul {
   list-style: none;
-  padding: 0;
+  padding: 20px; /* Added padding inside the box */
   margin: 0;
   text-align: left;
   color: #333;
+  border: 2px solid #533483; /* Added border for the box */
+  border-radius: 10px; /* Rounded corners for the box */
+  background-color: #f1fdf1; /* Light background color for the box */
 }
 
 .features li {
